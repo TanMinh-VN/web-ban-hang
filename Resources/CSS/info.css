@@ -1,0 +1,347 @@
+/*------------------------------------------*/
+/*-----------------DEFAULT-------------------------*/
+/*------------------------------------------*/
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    /* Mặc định là 16px */
+    columns: #5a5a5a;
+    background-color: #ffffff;
+    text-rendering: optimizeLegibility;
+}
+
+/*------------------------------------------*/
+/*-----------------RESUABLE COMPONENT-------------------------*/
+/*------------------------------------------*/
+button{
+    width: 50px;
+    height: 40px;
+}
+hr{
+    width: 80%;
+    margin: auto;
+}
+/*------------------------------------------*/
+/*-----------------HEADER-------------------------*/
+/*------------------------------------------*/
+
+.top{
+    height: 35px;
+    background-color:#333333;
+    padding-bottom: auto;
+}
+.top li{
+    display: inline-block;
+    margin-left: 70px;
+    margin-right: -50px;
+}
+.top li a{
+    color:whitesmoke;
+    text-decoration: none;
+    font-size: 12px;
+}
+.top h1{
+    display: inline-block;
+    margin-left: 40vw;
+}
+.top li a:hover{
+    color: #3366CC	;
+}
+.logo-contact{
+    background-color: whitesmoke;
+    height: 100px;
+
+}
+.logo{
+    width: 180px;
+    margin-top: 10px;
+    margin-left: 80px;
+    float: left;
+}
+
+.find{
+    /* margin-top: 35px;
+    margin-right: 20vw; */
+    margin: 30px 20vw;
+    float: right;
+}
+.find input{
+    height: 40px;
+    width: 400px;
+}
+.clearfix::after{
+    content: " ";
+    display: table;
+    clear: both;
+}
+
+.phone{
+    font-size: 15px;
+    float: right;
+    height: 40px;
+    color: whitesmoke;
+    background-color: #333333;
+    margin-top: -70px;
+    margin-right: 10vw;
+    padding:0 10px ;
+}
+.main-nav {
+    /* float: right; */
+    background-color:	#333333;
+    width: 99vw;
+    list-style: none;
+    margin-right: 100px;
+    padding-left: 8vw;
+    /* display: inline-block; */
+    height: 60px;
+}
+/* chỉnh màu khung*/
+.main-nav li{
+    font-size: 12px;  
+    text-align: center;
+    display: inline-block;
+    /* margin-right: 50px; */
+    padding-top: 20px;
+    padding-bottom: 23px;
+    width: 105px;
+}
+/* chữ li */
+.main-nav li a{
+    color: honeydew;
+    text-decoration: none;
+    font-size: 120%;
+    font-weight: 700;
+    text-transform: uppercase;
+
+}
+.main-nav li:hover{
+    background-color: yellowgreen;
+}
+.nav-1{
+    background-color: #555555;
+}
+.thanh-toan{
+    margin-left: 15vw;
+    background-color: #555555;
+}
+  
+/* -------------------TRANG INFO-ITEM------------------ */
+.img-thongtin{
+    padding-top: 50px;
+    margin-left: 70px;
+    width: 394px;
+    display: inline;
+    float: left;
+    height: 650px;
+    /* border: #ff0000 solid 2px;  */
+}
+.img-thongtin img{
+    height: 400px;
+}
+/* .gachanh{
+    text-decoration: none;
+} */
+.thongtin_ao{
+    float: left;
+    margin-top: 50px;
+    margin-left: 40px;
+    /* border: #ff0000 solid 2px;  */
+    width: 30vw;
+}
+.tt-h3{
+    text-align: center;
+}
+.tien{
+    text-align: right;
+}
+.noidungao{
+    font-size: 18px;
+    font-style: unset;
+    font-weight: 500;
+}
+.chonsize{
+    width: 70%;
+    padding-left: 40px;
+    font-size: 18px;
+    text-decoration: underline;
+    text-transform: uppercase;
+    color:black;
+}
+.size a{
+    /* border: black solid 2px; */
+    padding:0px 10px;
+    margin-left: 30px;
+    color: black;
+    text-decoration: none;
+}
+.size a:hover{   color: blue;}
+.p-size{
+    font-size: 18px;
+    font-weight: bold;
+    padding-left: 10px;
+    display: inline-block;
+    margin-right: 40px;
+    /* border: black solid 2px; */
+}
+.mausac li{
+    display: inline;
+}
+.xam a{
+    background-color: grey;
+}
+.do a{
+    background-color: red;
+}
+.den a{
+    background-color: black;
+}
+.mausac a{
+    padding:0px 15px;
+    margin-right: 40px;
+}
+.soluong input{
+    height: 25px;
+    height: 35px;
+}
+.soluong a{
+    padding: 0px 25px 7px 25px;
+    background-color:#0099CC;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    border: black solid 2px;
+}
+.spm{
+    /* border: #ff0000 solid 2px;  */
+    float: left;
+    font-size: 20px;
+    margin-top: 50px;
+    padding-left: 30px;
+    width: 300px;
+}
+.spm hr{
+   margin-left: 0px;
+   border: black solid 1px;
+   width: 100%;
+}
+.spmm1 img{
+    width: 100px; 
+    /* border: black solid 1px; */
+    float: right;
+} 
+ .spmm1 li {
+    width: 267px; 
+    list-style: none;
+    font-size: 15px;
+    float: left;
+    /* border: black solid 1px;  */
+} 
+.spmm1 a {
+    text-decoration: none;
+    color: black;
+}
+.spmm1 a:hover{   color: blue;}
+.mota hr{
+    margin-left: 70px;
+}
+.mota p{
+    margin-left: 70px;
+    font-size: 25px;
+    border: #8B8B83 solid 2px; 
+    width: 100px;
+    background-color: grey;
+    color: honeydew;
+    text-align: center;
+}
+.mota li{
+    list-style: none;
+    margin-left: 70px;
+    font-size: 17px;
+    height: 30px;
+}
+.sanphamtuongtu hr{
+    margin-left: 70px;
+}
+.sanphamtuongtu p{
+    margin-left: 70px;
+    font-size: 25px;
+    border: #8B8B83 solid 2px; 
+    width: 300px;
+    background-color: grey;
+    color: honeydew;
+    text-align: center;
+}
+.col.span-1-of-4 {
+    width: 220px;
+    margin-left: 70px;
+    /* border: black solid 2px;  */
+}
+.col.span-1-of-4 img{
+    margin-top: 10px;
+    width: 222px;
+    height: 280px;
+    /* border: black solid 2px;  */
+}
+.img-h5{
+    color: #000055;
+    text-align: center;
+}
+.img-h5 a{
+    color: black;
+    text-align: center;
+    text-decoration: none;
+
+}
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+/* ----------------------------ABOUT---------------------- */
+.about{
+    background-color:  #222222;
+}
+.about-col{
+    width: 28vw;
+    color:honeydew;
+    padding-left: 20px;
+    
+
+}
+.about-row{
+    border-right: 2px solid #EEEEEE;
+    border-left: 2px solid #EEEEEE;
+    padding:0px 30px;
+    font-size:medium;
+    color: honeydew;
+}
+
+.about-row li{
+    list-style: none;
+    
+}
+
+.about-row li a{
+    color: honeydew;
+    
+}
+
+.about-section{
+    padding: 0px 8vw;
+    text-align:left ;
+}
+.input-dki{
+    margin-top: 20px;
+    height: 30px;
+    width: 200px;
+}
+.btn-submit{
+    height: 30px;
+    margin-left: 10px;
+}
